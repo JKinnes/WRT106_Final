@@ -15,7 +15,7 @@ const headerHTML = `
           <ul class="submenu">
             <li class="menu-item first-submenu-item"><a href="#mission-statement">Mission Statement</a></li>
             <li class="menu-item"><a href="#trawling-at-a-glance">Trawling</a></li>
-            <li class="menu-item"><a href="quick-look">Quick Look</a></li>
+            <li class="menu-item"><a href="#quick-look">Quick Look</a></li>
           </ul>
         </li>
   
