@@ -181,7 +181,7 @@ nav {
   }
   
   .menu-item:hover a {
-  color: #4080da;
+  color: #4893fc;
   }
   
   .menu-item:hover {
@@ -281,6 +281,7 @@ nav {
     background-color: #33a3ff;
     border-radius: 0.1875rem;
     visibility: hidden;
+    margin: 5px;
   }
   
   .column-right {
@@ -480,6 +481,7 @@ nav {
 
   .slider {
     display: flex;
+    flex-direction: column;
     overflow: hidden;
     width: 100%;
     position: relative;
@@ -488,8 +490,23 @@ nav {
   .slide {
     flex-shrink: 0;
     width: 100%;
-    transition: transform 0.5s;
+    max-height: 100%;
+    object-fit: contain;
   }
+  
+  .caption-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .caption {
+    display: none; /* Add this line */
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
   
   .slider-arrow {
     position: absolute;
@@ -497,7 +514,7 @@ nav {
     z-index: 100;
     cursor: pointer;
     font-size: 2rem;
-    color: white;
+    color: rgb(2, 1, 1);
     padding: 0.5rem;
     border-radius: 50%;
   }
@@ -513,8 +530,10 @@ nav {
   }
 
   .slide-container {
+    max-height: 400px;
     display: flex;
     width: 100%;
+    transition: transform 0.5s;
   }
   
   
