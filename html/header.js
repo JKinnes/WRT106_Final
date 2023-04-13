@@ -14,8 +14,8 @@ const headerHTML = `
     
           <ul class="submenu">
             <li class="menu-item first-submenu-item"><a href="#mission-statement">Mission Statement</a></li>
-            <li class="menu-item"><a href="#service2">Trawling</a></li>
-            <li class="menu-item"><a href="#service3">Your impact</a></li>
+            <li class="menu-item"><a href="#trawling-at-a-glance">Trawling</a></li>
+            <li class="menu-item"><a href="quick-look">Quick Look</a></li>
           </ul>
         </li>
   
@@ -23,9 +23,9 @@ const headerHTML = `
         <a href="About.html#services" class="menu-item dropdown-header">About Trawling</a>
   
         <ul class="submenu">
-          <li class="menu-item first-submenu-item"><a href="#service1">What is trawling</a></li>
-          <li class="menu-item"><a href="#service2">Type of gear</a></li>
-          <li class="menu-item"><a href="#service3">Pros/Cons</a></li>
+          <li class="menu-item first-submenu-item"><a href="#about-trawling">What is trawling</a></li>
+          <li class="menu-item"><a href="#equipment">Equipment</a></li>
+          <li class="menu-item"><a href="#pros">Pros/Cons</a></li>
         </ul>
       </li>
       <li class="dropdown">
@@ -65,6 +65,7 @@ const headerHTML = `
     </ul>
   </nav>
   </div>
+  
   
   
   
