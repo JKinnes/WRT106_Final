@@ -558,11 +558,10 @@ nav {
   }
   
   .caption {
-    display: none; /* Add this line */
     text-align: center;
     font-size: 1rem;
     margin-top: 1rem;
-    color:#33a3ff
+    color: #33a3ff;
   }
   
   
